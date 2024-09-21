@@ -82,3 +82,20 @@ Actual result 2:
 Enter a number: 8
 True
 ```
+
+## Example 8
+```python
+n = int(input("Enter a number: "))
+print(n % 3 == 0 and n >= 50 and n <= 100)
+```
+Actual result 1:
+```txt
+Enter a number: 75
+True
+```
+
+Actual result 2:
+```txt
+Enter a number: 53
+False
+```
