@@ -94,8 +94,63 @@ Enter a number: 75
 True
 ```
 
+## 1.2 Cấu trúc điều kiện
+
+## Example 1
+```python
+number = int(input("Enter a number: "))
+if (number % 2 ==0):
+    print(number, 'is even number')
+else:
+    print(number, 'is odd number')
+print("End program!")
+```
+Actual result 1:
+```txt
+Enter a number: 8
+8 is even number
+End program!
+```
+
 Actual result 2:
 ```txt
-Enter a number: 53
-False
+Enter a number: 5
+5 is odd number
+End program!
+```
+
+## Example 2
+```python
+math = float(input("Enter a math score: "))
+physics = float(input("Enter a physics float: "))
+chemistry = float(input("Enter a chemistry float: "))
+
+averageScore = (math + physics + chemistry) / 3
+
+if(averageScore >= 8):
+    print(averageScore,"Excellent")
+elif(averageScore < 8 and averageScore >= 6.5):
+    print(averageScore, "Good")
+elif (averageScore < 6.5 and averageScore >= 5.0):
+    print(averageScore, "Need to work hard")
+elif (averageScore < 5.0 and averageScore >= 3.5):
+    print(averageScore, "Bad score")
+else:
+    print(averageScore, "You must learn again!")
+```
+Actual result 1:
+```txt
+Enter a math score: 6.5
+Enter a physic float: 7.0
+Enter a chemitry float: 8.5
+7.333333333333333 Good
+
+```
+
+Actual result 2:
+```txt
+Enter a math score: 5.0
+Enter a physics float: 6.5
+Enter a chemistry float: 5.5
+5.666666666666667 Need to work hard
 ```
