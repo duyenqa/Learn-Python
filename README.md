@@ -52,3 +52,16 @@ Actual result:
 Enter a number: 9.5
 9.5
 ```
+
+## Example 6
+```python
+name = "Duyen"
+age = 30
+
+print(f"Hello {name} ! I'm {age} years old")
+```
+Actual result:
+```txt
+Hello Duyen ! I'm 30 years old
+9.5
+```
