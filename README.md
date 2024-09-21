@@ -65,3 +65,20 @@ Actual result:
 Hello Duyen ! I'm 30 years old
 9.5
 ```
+
+## Example 7
+```python
+n = int(input("Enter a number: "))
+print(n % 2 == 0)
+```
+Actual result 1:
+```txt
+Enter a number: 5
+False
+```
+
+Actual result 2:
+```txt
+Enter a number: 8
+True
+```
