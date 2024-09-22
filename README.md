@@ -242,3 +242,30 @@ Actual result:
 56
 100
 ```
+
+## Example 7
+S = 1 + 2 + ... + n
+```python
+n = int(input("Enter a number: "))
+s = 0
+for i in range(1, n + 1):
+    s += i
+print(s)
+```
+Actual result:
+```txt
+Enter a number: 5
+15
+```
+
+## Example 8
+```python
+s = 0
+for item in [11,50,21,56,100]:
+    s += item
+print(f"Result:{s}")
+```
+Actual result:
+```txt
+Result:238
+```
