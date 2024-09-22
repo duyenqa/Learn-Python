@@ -158,3 +158,87 @@ Enter a physics float: 6.5
 Enter a chemistry float: 5.5
 5.666666666666667 Need to work hard
 ```
+
+## 1.3 Vòng lặp for
+
+## Example 1
+```python
+for item in range(5):
+    print(item)
+```
+Actual result:
+```txt
+0
+1
+2
+3
+4
+```
+
+## Example 2
+```python
+for item in range(1, 5):
+    print(item)
+```
+Actual result:
+```txt
+1
+2
+3
+4
+```
+
+## Example 3
+```python
+for item in range(0, 10, 2):
+    print(item)
+```
+Actual result:
+```txt
+0
+2
+4
+6
+8
+```
+
+## Example 4
+```python
+for item in 'Python':
+    print(item)
+```
+Actual result:
+```txt
+P
+y
+t
+h
+o
+n
+```
+
+## Example 5
+```python
+for item in ["orange", "apple", "cherry"]:
+    print(item)
+```
+Actual result:
+```txt
+orange
+apple
+cherry
+```
+
+## Example 6
+```python
+for item in [11,50,21,56,100]:
+    print(item)
+```
+Actual result:
+```txt
+11
+50
+21
+56
+100
+```
