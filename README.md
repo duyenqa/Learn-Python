@@ -1,4 +1,8 @@
-# Learn-Python
+# Learn-Python version 3.12.4
+
+## IDE
+* [PyCharm Community Edition version 2024.1.4](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
+
 ## 1.1 Nhập xuất
 
 ## Example 1
