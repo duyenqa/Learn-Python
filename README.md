@@ -269,3 +269,23 @@ Actual result:
 ```txt
 Result:238
 ```
+
+## 1.4 Vòng lặp for lồng nhau
+
+## Example 1
+```python
+for i in range(2):
+    for j in range(1,4):
+        print(f"({i},{j})")
+print("Done!")
+```
+Actual result:
+```txt
+(0,1)
+(0,2)
+(0,3)
+(1,1)
+(1,2)
+(1,3)
+Done!
+```
