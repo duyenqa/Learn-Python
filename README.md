@@ -159,6 +159,30 @@ Enter a chemistry float: 5.5
 5.666666666666667 Need to work hard
 ```
 
+## Example 3
+```python
+month = int(input("Enter a month: "))
+year = int(input("Enter a year: "))
+
+if month in(1,3,5,7,8,10,12):
+    print("Month", month, "has 31 days")
+elif month in(4,6,9,11):
+    print("Month", month, "has 30 days")
+elif month == 2:
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print("Month", month, " has 29 days")
+    else:
+        print("Month", month, " has 28 days")
+else:
+    print("The month is invalid!")
+```
+Actual result:
+```txt
+Enter a month: 5
+Enter a year: 2024
+Month 5 has 31 days
+```
+
 ## 1.3 Vòng lặp for
 
 ## Example 1
