@@ -427,3 +427,22 @@ Actual result:
 (1,3)
 Done!
 ```
+
+## 1.6 Mảng 1 chiều
+
+## Example 1
+Tạo 1 mảng random
+```python
+import random
+
+n = int(input("Enter the number of elements: "))
+arr = [0]*n
+for i in range(n):
+    arr[i] = random.randrange(0, 101)
+print(arr)
+```
+Actual result:
+```txt
+Enter the number of elements: 10
+[100, 52, 33, 11, 85, 61, 82, 57, 21, 7]
+```
