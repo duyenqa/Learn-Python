@@ -512,3 +512,6 @@ Actual result:
 ```python
 []
 ```
+
+## Author
+By Ngô Thị Kim Duyên - 2024
