@@ -441,8 +441,9 @@ for i in range(n):
     arr[i] = random.randrange(0, 101)
 print(arr)
 ```
+
 Actual result:
-```txt
+```python
 Enter the number of elements: 10
 [100, 52, 33, 11, 85, 61, 82, 57, 21, 7]
 ```
