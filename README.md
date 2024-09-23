@@ -366,6 +366,48 @@ Enter a number: 5
 The choice is invalid!
 End program!
 ```
+
+## Example 3
+S = 1 + 2 + ... + n
+
+```python
+n = int(input("Enter a number: "))
+s = 0
+i = 1
+while (i <= n):
+    s += i
+    i+=1
+print(s)
+```
+Actual result:
+```txt
+Enter a number: 5
+15
+```
+
+## Example 4
+Tổng só lẻ, tổng số chẳn
+
+```python
+n = int(input("Enter a number: "))
+sumOdd = 0
+sumEven = 0
+i = 1
+while (i <= n):
+    if (i % 2 != 0):
+        sumOdd += i
+    else:
+        sumEven += i
+    i+=1
+print("Sum odd =", sumOdd)
+print("Sum even =", sumEven)
+```
+Actual result:
+```txt
+Sum odd = 9
+Sum even = 6
+```
+
 ## 1.5 Vòng lặp for lồng nhau
 
 ## Example 1
