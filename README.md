@@ -447,3 +447,68 @@ Actual result:
 Enter the number of elements: 10
 [100, 52, 33, 11, 85, 61, 82, 57, 21, 7]
 ```
+
+## Example 2
+Thêm vào cuối mảng
+```python
+numbers = [5,2,1,7,4]
+numbers.append(20) 
+print(numbers)
+```
+
+Actual result:
+```python
+[5, 2, 1, 7, 4, 20]
+```
+
+## Example 3
+Thêm vào đầu mảng
+```python
+numbers = [5,2,1,7,4]
+numbers.insert(0,10)
+print(numbers)
+```
+
+Actual result:
+```python
+[10, 5, 2, 1, 7, 4]
+```
+
+## Example 4
+Xóa 1 phần tử trong mảng
+```python
+numbers = [5,2,1,7,4]
+numbers.remove(2)
+print(numbers)
+```
+
+Actual result:
+```python
+[5, 1, 7, 4]
+```
+
+## Example 5
+Xóa 1 phần tử cuối mảng
+```python
+numbers = [5,2,1,7,4]
+numbers.pop()
+print(numbers)
+```
+
+Actual result:
+```python
+[5, 1, 7]
+```
+
+## Example 5
+Xóa tất phần tử trong mảng
+```python
+numbers = [5,2,1,7,4]
+numbers.clear()
+print(numbers)
+```
+
+Actual result:
+```python
+[]
+```
