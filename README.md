@@ -270,7 +270,79 @@ Actual result:
 Result:238
 ```
 
-## 1.4 Vòng lặp for lồng nhau
+## 1.4 Vòng lặp while
+
+## Example 1
+Nhập số nguyên dương liên tục, nếu nhập số âm sẽ dừng chương trình
+
+```python
+n = 1
+while True:
+    if (n < 0):
+        break
+    else:
+        n = int(input("Enter a number: "))
+```
+Actual result:
+```txt
+Enter a number: 5
+Enter a number: 0
+Enter a number: 12
+Enter a number: 34
+Enter a number: -1
+```
+## Example 2
+Tạo 1 menu lựa chọn
+
+```python
+select = 0
+while select != 4:
+    print("***** MENU *****")
+    print("1.Add item")
+    print("2.Read items")
+    print("3.Edit item")
+    print("4.Delete item")
+    select = int(input("Enter a number: "));
+
+    if select == 1:
+        print("You have chosen to add items")
+    elif select == 2:
+        print("You have chosen to read items")
+    elif select == 3:
+        print("You have chosen to edit items")
+    elif select == 4:
+        print("You have chosen to delete items")
+    else:
+        print("The choice is invalid!")
+        break
+print("End program!")
+```
+Actual result:
+```txt
+***** MENU *****
+1.Add item
+2.Read items
+3.Edit item
+4.Delete item
+Enter a number: 1
+You have chosen to add items
+***** MENU *****
+1.Add item
+2.Read items
+3.Edit item
+4.Delete item
+Enter a number: 2
+You have chosen to read items
+***** MENU *****
+1.Add item
+2.Read items
+3.Edit item
+4.Delete item
+Enter a number: 5
+The choice is invalid!
+End program!
+```
+## 1.5 Vòng lặp for lồng nhau
 
 ## Example 1
 ```python
