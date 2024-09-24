@@ -634,7 +634,7 @@ print("Sort descending:", a)
 Actual result:
 
 ```python
-Sort ascending: [100, 90, 55, 45, 38, 33, 18, 18, 4, 2]
+Sort descending: [100, 90, 55, 45, 38, 33, 18, 18, 4, 2]
 ```
 
 ## Example 11
