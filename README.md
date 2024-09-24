@@ -513,5 +513,39 @@ Actual result:
 []
 ```
 
+## Example 6
+Kiểm tra phần tử có tồn tại trong mảng hay không ?
+```python
+n = 9
+isExisted = n in [1, 2, 3, 4]
+print(n, "is not existed in arr")
+```
+
+Actual result:
+```python
+9 is not existed in arr
+```
+
+## Example 7
+Tìm số lớn nhất trong mảng
+
+```python
+arr = [33,45,18,4,90,55,38,2]
+max = min = arr[0]
+
+for item in arr:
+    if(item > max):
+        max = item
+    else:
+        min = item
+print("Max value: ", max)
+print("Min value: ", min)
+```
+
+Actual result:
+```python
+Max value:  90
+Min value:  2
+```
 ## Author
 By Ngô Thị Kim Duyên - 2024
