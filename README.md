@@ -97,6 +97,21 @@ Actual result 1:
 Enter a number: 75
 True
 ```
+## Example 9
+Hoán vị 2 số
+
+```python
+a = 3
+b = 4
+
+a, b = b, a
+print("{} {}".format(a,b))
+```
+
+Actual result
+```txt
+4 3
+```
 
 ## 1.2 Cấu trúc điều kiện
 
@@ -542,10 +557,89 @@ print("Max value: ", max)
 print("Min value: ", min)
 ```
 
+Cách gọn hơn:
+```python
+print("Max value: ", max([33,45,18,4,90,55,38,2]))
+print("Min value: ", min([33,45,18,4,90,55,38,2]))
+```
+
 Actual result:
 ```python
 Max value:  90
 Min value:  2
 ```
+
+## Example 8
+Đếm tần xuất số xuất hiện
+```python
+arr = [33,45,18,4,90,55,38,2,18,100]
+
+for item in arr:
+    count = arr.count(item)
+    print(item, "is displayed", count, "times in list")
+```
+
+Actual result:
+```txt
+33 is displayed 1 times in list
+45 is displayed 1 times in list
+18 is displayed 2 times in list
+4 is displayed 1 times in list
+90 is displayed 1 times in list
+55 is displayed 1 times in list
+38 is displayed 1 times in list
+2 is displayed 1 times in list
+18 is displayed 2 times in list
+100 is displayed 1 times in list
+```
+
+## Example 9
+Sắp xếp tăng dần
+
+Cách 1:
+
+```python
+a = [33,45,18,4,90,55,38,2,18,100]
+n = len(a)
+
+for i in range(n):
+    for j in range(0, n-i-1):
+        if a[j] > a[j+1]:
+            a[j], a[j+1] = a[j+1], a[j]
+print("Sort ascending:", a)
+```
+
+Cách 2: gọn hơn
+
+```python
+a = [33,45,18,4,90,55,38,2,18,100]
+a.sort()
+print("Sort ascending:", a)
+```
+
+Actual result:
+
+```python
+[2, 4, 18, 18, 33, 38, 45, 55, 90, 100]
+```
+
+## Example 10
+Loại bỏ các phần tử bị trùng nhau trong mảng
+
+```python
+numbers = [2,2,4,6,3,4,6,1]
+uniques = []
+
+for item in numbers:
+    if item not in uniques:
+        uniques.append(item)
+print(uniques)
+```
+
+Actual result:
+```python
+[2, 4, 6, 3, 1]
+```
+
 ## Author
 By Ngô Thị Kim Duyên - 2024
