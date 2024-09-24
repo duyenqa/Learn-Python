@@ -655,5 +655,51 @@ Actual result:
 [2, 4, 6, 3, 1]
 ```
 
+## 1.7 Exception Handling
+
+## Example 1
+```python
+try:
+    a = 5
+    b = 0
+    c = a / b
+except ZeroDivisionError:
+    print("divided by zero")
+```
+
+Actual result:
+```txt
+divided by zero
+```
+
+## Example 2
+```python
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+try:
+    c = a / b
+except ZeroDivisionError:
+    print("divided by zero")
+else:
+    print(a,"/", b,"=",c)
+finally:
+    print("Done!")
+```
+
+Actual result 1:
+```txt
+Enter a number: 1
+Enter a number: 0
+divided by zero
+Done!
+```
+
+Actual result 2:
+```txt
+Enter a number: 12
+Enter a number: 6
+12 / 6 = 2.0
+Done!
+```
 ## Author
 By Ngô Thị Kim Duyên - 2024
