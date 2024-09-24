@@ -622,8 +622,22 @@ Actual result:
 ```python
 [2, 4, 18, 18, 33, 38, 45, 55, 90, 100]
 ```
-
 ## Example 10
+Sắp xếp giảm đân
+```python
+a = [33,45,18,4,90,55,38,2,18,100]
+a.sort()
+a.reverse()
+print("Sort descending:", a)
+```
+
+Actual result:
+
+```python
+Sort ascending: [100, 90, 55, 45, 38, 33, 18, 18, 4, 2]
+```
+
+## Example 11
 Loại bỏ các phần tử bị trùng nhau trong mảng
 
 ```python
