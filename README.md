@@ -623,7 +623,7 @@ Actual result:
 [2, 4, 18, 18, 33, 38, 45, 55, 90, 100]
 ```
 ## Example 10
-Sắp xếp giảm đân
+Sắp xếp giảm dần
 ```python
 a = [33,45,18,4,90,55,38,2,18,100]
 a.sort()
