@@ -1,7 +1,7 @@
 # Learn-Python version 3.13.0
-
+## Install Python
 * [Python Releases for Windows](https://www.python.org/downloads/windows/)
-## IDE
+## IDE PyCharm
 * [PyCharm Community Edition version 2024.3](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
 
 ## 1.1 Nhập xuất
