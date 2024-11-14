@@ -1,7 +1,8 @@
-# Learn-Python version 3.12.4
-
-## IDE
-* [PyCharm Community Edition version 2024.1.4](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
+# Learn-Python version 3.13.0
+## Install Python
+* [Python Releases for Windows](https://www.python.org/downloads/windows/)
+## IDE PyCharm
+* [PyCharm Community Edition version 2024.3](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
 
 ## 1.1 Nhập xuất
 
@@ -700,6 +701,32 @@ Enter a number: 12
 Enter a number: 6
 12 / 6 = 2.0
 Done!
+```
+
+## 1.8 OOP
+### Constructor
+- Được sử dùng __init__ method
+- Trong class và constructor, không cần khai báo biến trước là do các biến được khai báo và khởi tạo trực tiếp trong constructor __init__. Khi gán giá trị cho các thuộc tính của đối tượng thông qua self, Python tự động tạo ra các thuộc tính đó.
+
+```python
+class Student:
+    def __init__(self, name, rollNo):
+        self.name = name
+        self.rollNo = rollNo
+    def displayInfo(self):
+        print("Name: ", self.name)
+        print("ID: ", self.rollNo)
+
+student = Student("Jenny", 2)
+print("Constructor has param")
+student.displayInfo()
+```
+
+Actual result:
+```txt
+Constructor has param
+Name:  Jenny
+ID:  2
 ```
 ## Author
 By Ngô Thị Kim Duyên - 2024
