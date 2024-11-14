@@ -1,7 +1,8 @@
-# Learn-Python version 3.12.4
+# Learn-Python version 3.13.0
 
+* [Python Releases for Windows](https://www.python.org/downloads/windows/)
 ## IDE
-* [PyCharm Community Edition version 2024.1.4](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
+* [PyCharm Community Edition version 2024.3](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
 
 ## 1.1 Nhập xuất
 
