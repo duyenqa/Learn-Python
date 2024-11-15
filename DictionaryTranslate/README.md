@@ -1,8 +1,11 @@
 # DEMO Program
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 1
@@ -11,8 +14,11 @@ Enter a new word: annyeonghaseyo
 
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 1
@@ -21,8 +27,11 @@ Enter a new word: gamsahamnida
 
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 1
@@ -31,8 +40,11 @@ Enter a new word: annyeonghi gyeseyo
 
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 3
@@ -43,8 +55,11 @@ Enter your choice: 3
 
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 2
@@ -55,8 +70,11 @@ Enter a word to remove from dictionary: gamsahamnida
 
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 3
@@ -67,8 +85,11 @@ Enter your choice: 3
 
 ---Menu---
 1.Add word
+
 2.Delete word
+
 3.View list
+
 4.Translate word
 
 Enter your choice: 4
