@@ -1,5 +1,6 @@
 # DEMO Program
 ---Menu---
+
 1.Add word
 
 2.Delete word
@@ -13,6 +14,7 @@ Enter your choice: 1
 Enter a new word: annyeonghaseyo
 
 ---Menu---
+
 1.Add word
 
 2.Delete word
@@ -26,6 +28,7 @@ Enter your choice: 1
 Enter a new word: gamsahamnida
 
 ---Menu---
+
 1.Add word
 
 2.Delete word
@@ -39,6 +42,7 @@ Enter your choice: 1
 Enter a new word: annyeonghi gyeseyo
 
 ---Menu---
+
 1.Add word
 
 2.Delete word
@@ -54,6 +58,7 @@ Enter your choice: 3
 ['annyeonghaseyo', 'gamsahamnida', 'annyeonghi gyeseyo']
 
 ---Menu---
+
 1.Add word
 
 2.Delete word
@@ -69,6 +74,7 @@ Enter a word to remove from dictionary: gamsahamnida
 ['annyeonghaseyo', 'annyeonghi gyeseyo']
 
 ---Menu---
+
 1.Add word
 
 2.Delete word
@@ -84,6 +90,7 @@ Enter your choice: 3
 ['annyeonghaseyo', 'annyeonghi gyeseyo']
 
 ---Menu---
+
 1.Add word
 
 2.Delete word
