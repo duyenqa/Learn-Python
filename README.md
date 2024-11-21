@@ -703,7 +703,42 @@ Enter a number: 6
 Done!
 ```
 
-## 1.8 OOP
+## 1.8 Read file excel
+File excel
+| TC  | Username               | Password  |
+|-----|------------------------|-----------|
+| tc01  | demouser@gmail.com   |Test@user1 |
+| tc01  | demouser@example.com |Test@user1 |
+
+```python
+from openpyxl.reader.excel import load_workbook
+
+def read_data_from_excel(file_name, name_sheet):
+    datalist = []
+    wb = load_workbook(filename=file_name)
+    sh = wb[name_sheet]
+    row_ct = sh.max_row
+    col_ct = sh.max_column
+
+    for i in range(2, row_ct + 1):
+        row = []
+        for j in range(1, col_ct + 1):
+            row.append(sh.cell(row=i,column=j).value)
+        datalist.append(row)
+    return datalist
+
+def main():
+    result = read_data_from_excel("D:\\ProjectsPython\\PythonTestFirst\\resourses\\test.xlsx", "Sheet1")
+    print(result)
+
+main()
+```
+Actual result:
+```python
+[['tc01', 'demouser@gmail.com', 'Test@user1'], ['tc01', 'demouser@example.com', 'Test@user1']]
+```
+
+## 1.9 OOP
 ### Constructor
 - Được sử dùng __init__ method
 - Trong class và constructor, không cần khai báo biến trước là do các biến được khai báo và khởi tạo trực tiếp trong constructor __init__. Khi gán giá trị cho các thuộc tính của đối tượng thông qua self, Python tự động tạo ra các thuộc tính đó.
