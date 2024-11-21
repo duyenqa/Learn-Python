@@ -4,6 +4,9 @@
 ## IDE PyCharm
 * [PyCharm Community Edition version 2024.3](https://www.jetbrains.com/pycharm/download/?section=windows) - Version free
 
+## Library for excel
+* [Openpyxl](https://pypi.org/project/openpyxl/)
+
 ## 1.1 Nhập xuất
 
 ## Example 1
